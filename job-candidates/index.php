@@ -26,7 +26,7 @@ foreach ($people as $person) {
     if ($age >= 18) {
         $adult++;
         if ($age >= 22 && $age <= 30) {
-            $peopleAdult[] = $person['name'];
+            $peopleAdult[] = $person;
         }
     } else {
         $children++;
